@@ -1,0 +1,16 @@
+prompt:
+
+
+test cases:
+
+Available Slots	                            Constraints                                                                         Expected Output
+8–9 AM, 9–10 AM, 1–2 PM                     Duration: 1 hour; Meeting must start after 9 AM	                                    9:00 AM – 10:00 AM
+10–11 AM, 12–1 PM, 3–4 PM	                  Duration: 1 hour; Manager unavailable 10 AM–1 PM	                                  3:00 PM – 4:00 PM
+9–10 AM, 10–11 AM, 2–3 PM	                  Duration: 1 hour; All participants available only 2–3 PM	                          2:00 PM – 3:00 PM
+9–10 AM, 11 AM–12 PM, 1–2 PM	              Duration: 1 hour; Meeting must finish before 12 PM	                                9:00 AM – 10:00 AM
+10–11 AM, 1–2 PM, 2–3 PM	                  Duration: 1 hour; Manager unavailable 10 AM–1 PM; Before 4 PM	                      1:00 PM – 2:00 PM
+9–10 AM, 10–11 AM, 2–3 PM	                  Duration: 1 hour; Manager unavailable 9 AM–3 PM	                                    NO_AVAILABLE_SLOT
+11 AM–12 PM, 1–2 PM, 3–4 PM	                Duration: 1 hour; All participants available; Before 4 PM	                          11:00 AM – 12:00 PM
+10–11 AM, 12–1 PM, 2–3 PM	                  Duration: 1 hour; One participant unavailable 2–3 PM	                              10:00 AM – 11:00 AM
+9–10 AM, 1–2 PM, 4–5 PM	                    Duration: 1 hour; Meetings must finish before 4 PM	                                9:00 AM – 10:00 AM
+10–11 AM, 11 AM–12 PM, 2–3 PM	              Duration: Not provided                                                        	    NO_AVAILABLE_SLOT
