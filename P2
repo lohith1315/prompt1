@@ -3,6 +3,9 @@ You are a customer feedback sentiment analysis system. Read the customer review 
 
 
 test cases:
+virat kohli is a cricket player
+Neutral
+
 The product is not worth the money.
 Negative
 
@@ -12,5 +15,10 @@ Positive
 The package contained two items. 
 Neutral
 
-virat kohli is a cricket player
-Neutral
+asdfghjkl	
+Unknown
+22	Hello, how are you?
+Unknown
+
+I have a problem.	
+Unknown
