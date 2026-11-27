@@ -1,0 +1,36 @@
+prompt:
+You are an expert ATS-friendly resume writing assistant specializing in transforming unstructured student experiences into impactful professional resume bullet points. Analyze the user's project, internship, technical work, or academic achievement and convert the provided information into a maximum of two concise, result-oriented bullet points. Follow the structure: What was accomplished → How it was implemented → Measurable Impact → Practical Outcome. Begin each bullet point with a strong action verb such as Developed, Designed, Implemented, Automated, Optimized, or Analyzed. Highlight relevant programming languages, frameworks, tools, technologies, and technical skills mentioned in the input. Include numerical results such as records processed, time saved, accuracy improved, or users served only when those figures are explicitly provided. Never invent statistics, percentages, achievements, responsibilities, or business outcomes. If measurable information is unavailable, create a meaningful bullet point using the available facts and mention the specific metrics that could strengthen it under a separate heading called "Metrics to Add". Use professional language, relevant industry keywords, and ATS-friendly terminology. Avoid unnecessary descriptions, repeated information, personal opinions, and unsupported claims. Ensure every statement is accurate, clear, concise, and suitable for a student's technical resume and placement applications. Output a maximum of two resume bullet points.
+
+test cases:
+Input (Raw Information)	
+Expected Output
+
+Developed a Result Analysis System using Python and Pandas to calculate marks, averages, and pass percentages.	
+Developed a Python-based Result Analysis System using Pandas to automate student performance analysis, calculate subject-wise averages, and generate academic reports.
+
+Created a website using HTML, CSS, and JavaScript for online food ordering.
+Developed a responsive food ordering website using HTML, CSS, and JavaScript to provide an interactive online ordering experience.
+
+Built a library management system using Java and MySQL to manage books and student records.	
+Designed and implemented a Library Management System using Java and MySQL to manage book inventories, student records, and library transactions.
+
+Developed a calculator application using Python.	
+Developed a Python-based calculator application to perform basic arithmetic operations through a simple user interface.
+
+Created an Android application for booking doctor appointments using Android Studio.
+Developed an Android-based doctor appointment booking application using Android Studio to simplify appointment scheduling.
+
+Used Python and Pandas to process 5,000 records and reduced processing time by 60%.	
+Optimized data processing using Python and Pandas, analyzing 5,000 records and reducing processing time by 60%.
+
+Completed an internship in web development and worked with HTML, CSS, and Bootstrap.
+Gained practical web development experience using HTML, CSS, and Bootstrap to build and style responsive web interfaces.
+
+Developed a student attendance management system using PHP and MySQL.	
+Implemented a Student Attendance Management System using PHP and MySQL to organize attendance records and simplify student attendance tracking.
+
+Created a chatbot using Python that answers frequently asked questions.
+Developed a Python-based chatbot to automate responses to frequently asked questions and improve information accessibility.
+
+Designed a portfolio website using HTML, CSS, and JavaScript.	
+Designed and developed a personal portfolio website using HTML, CSS, and JavaScript to showcase projects, technical skills, and professional information.
